@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DB2D9A27-9DE9-7EE9-2E94-84F342DA2849}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigRookGames", "BigRookGames.csproj", "{B44F516F-043F-04C2-6F09-DC1FC19B744B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{DB2D9A27-9DE9-7EE9-2E94-84F342DA2849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2D9A27-9DE9-7EE9-2E94-84F342DA2849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2D9A27-9DE9-7EE9-2E94-84F342DA2849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44F516F-043F-04C2-6F09-DC1FC19B744B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44F516F-043F-04C2-6F09-DC1FC19B744B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44F516F-043F-04C2-6F09-DC1FC19B744B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44F516F-043F-04C2-6F09-DC1FC19B744B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

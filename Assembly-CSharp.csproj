@@ -1486,6 +1486,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="BigRookGames.csproj">
+      <Project>{B44F516F-043F-04C2-6F09-DC1FC19B744B}</Project>
+      <Name>BigRookGames</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
