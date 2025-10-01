@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\DoorOpenSensor.cs" />
     <Compile Include="Assets\GI479Assets\Week4\The Developer Train\Sci Fi Guns\Scripts\Railgun2Rails.cs" />
     <Compile Include="Assets\NavMeshSurface.cs" />
+    <Compile Include="Assets\GI479Assets\Week6\Scripts\MutantEnemyController.cs" />
     <Compile Include="Assets\GI479Assets\Week5\NotIncludedToClass\Grenade.cs" />
     <Compile Include="Assets\GI479Assets\Week4\The Developer Train\Sci Fi Guns\Demo\Scripts\GunSpawner.cs" />
     <Compile Include="Assets\GI479Assets\Week4\The Developer Train\Sci Fi Guns\Demo\Scripts\GunRotation.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\GI479Assets\Week4\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
     <Compile Include="Assets\GI479Assets\Week4\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\VolumetricMultiLineBehavior.cs" />
     <Compile Include="Assets\GI479Assets\Week4\The Developer Train\Sci Fi Guns\Scripts\GunChargeOverTime.cs" />
+    <Compile Include="Assets\GI479Assets\Week6\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\GI479Assets\Week4\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Bullet : MonoBehaviour
 {
+    public float bulletDamage = 10.5f;
+
     [SerializeField]
     private Rigidbody rb;
 
@@ -37,5 +39,12 @@ public class Bullet : MonoBehaviour
             Instantiate(hitParticle, hitPos, hitRot);
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.TryGetComponent(out Health health))
+        {
+            health.TakeDamage(bulletDamage);
+        }
+
+        Destroy(gameObject);
     }
 }
