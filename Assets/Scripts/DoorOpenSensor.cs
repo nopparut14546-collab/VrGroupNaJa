@@ -26,10 +26,7 @@ public class DoorOpenSensor : MonoBehaviour
             DoorAnimator.Play("Open");
             isDoorOpen = true;
 
-            // if (OnDoorOpen != null)
-            // {
-            //     OnDoorOpen.Invoke();
-            // }
+            
             OnDoorOpen?.Invoke();
         }
         else if (isDoorOpen && Vector3.Distance(transform.position, PlayerTransform.position) > Distance)
@@ -39,10 +36,22 @@ public class DoorOpenSensor : MonoBehaviour
             OnDoorClose?.Invoke();
         }
     }
+    
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, Distance);
+    }
+    public void Open()
+    {
+         if (OnDoorOpen != null)
+         {
+            DoorAnimator.Play("Open");
+            isDoorOpen = true;
+
+
+            OnDoorOpen?.Invoke();
+        }
     }
 }

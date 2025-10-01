@@ -86,6 +86,7 @@
     <Compile Include="Assets\NavMeshSurface.cs" />
     <Compile Include="Assets\GI479Assets\Week6\Scripts\MutantEnemyController.cs" />
     <Compile Include="Assets\GI479Assets\Week5\NotIncludedToClass\Grenade.cs" />
+    <Compile Include="Assets\GI479Assets\Week7\Scripts\SnapInteractableVisuals.cs" />
     <Compile Include="Assets\GI479Assets\Week4\The Developer Train\Sci Fi Guns\Demo\Scripts\GunSpawner.cs" />
     <Compile Include="Assets\GI479Assets\Week4\The Developer Train\Sci Fi Guns\Demo\Scripts\GunRotation.cs" />
     <Compile Include="Assets\GI479Assets\Week4\The Developer Train\Sci Fi Guns\Scripts\Gun.cs" />
