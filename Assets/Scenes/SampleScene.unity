@@ -304,7 +304,7 @@ Transform:
   m_GameObject: {fileID: 141890718}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.014, y: 0.174, z: 0.397}
+  m_LocalPosition: {x: -0.014, y: 0.176, z: 0.408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21382,24 +21382,12 @@ MonoBehaviour:
   triggerPivot: {fileID: 364435527}
   triggerSpeed: 20
   rotateXAxis: 1
-  triggerXRotation: 40
+  triggerXRotation: 35
   moveZAxis: 0
   triggerZPosition: 0
   WhenShoot:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 556396262}
-        m_TargetAssemblyTypeName: Oculus.Interaction.AudioTrigger, Oculus.Interaction.Samples
-        m_MethodName: PlayAudio
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1903983270
 GameObject:
   m_ObjectHideFlags: 0
