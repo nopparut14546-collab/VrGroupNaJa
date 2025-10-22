@@ -154,7 +154,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e4232ee69adb61d4d85fb862111dbf73, type: 2}
+  m_Motion: {fileID: 7400000, guid: e623239a4df648b4ca0b4c3c6d365f31, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -207,7 +207,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a15291e87b882ce4195e4cea69b52965, type: 2}
+  m_Motion: {fileID: 7400000, guid: c17ffd9552cd0e04d9511320505b19db, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -219,7 +219,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mutant_Animator
+  m_Name: Mutant2_Animator 1
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Dead
