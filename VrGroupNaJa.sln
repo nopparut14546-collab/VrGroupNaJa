@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigRookGames", "BigRookGames.csproj", "{B44F516F-043F-04C2-6F09-DC1FC19B744B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Universal", "Polyperfect.Universal.csproj", "{39F0ED8D-E878-EF98-C060-EC85650D7E0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{B44F516F-043F-04C2-6F09-DC1FC19B744B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B44F516F-043F-04C2-6F09-DC1FC19B744B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B44F516F-043F-04C2-6F09-DC1FC19B744B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F0ED8D-E878-EF98-C060-EC85650D7E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F0ED8D-E878-EF98-C060-EC85650D7E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F0ED8D-E878-EF98-C060-EC85650D7E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F0ED8D-E878-EF98-C060-EC85650D7E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
